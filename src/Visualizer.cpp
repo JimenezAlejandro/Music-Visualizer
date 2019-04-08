@@ -48,7 +48,7 @@ void Visualizer::start()
 							toggle();
 							break;
 						case sf::Keyboard::Escape:
-							
+							stop();
 							break;
 					}
 					break;

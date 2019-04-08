@@ -26,9 +26,9 @@ Visualizer::~Visualizer()
 
 void Visualizer::start()
 {
-	music.play();
 	window.display();
 	window.setFramerateLimit(30);
+	music.play();
 
 	while (window.isOpen())
 	{
